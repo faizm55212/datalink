@@ -15,6 +15,12 @@ pub(super) fn get_preset(game: &str) -> Option<GameBridgeConfig> {
             MemMapConfig { name: "acpmf_physics".to_string(), size: 2048 },
             MemMapConfig { name: "acpmf_graphics".to_string(), size: 2048 },
         ], "Assetto Corsa Evo"),
+        "3917090" => (vec![
+            MemMapConfig { name: "acpmf_crewchief".to_string(), size: 15660 },
+            MemMapConfig { name: "acpmf_static".to_string(), size: 2048 },
+            MemMapConfig { name: "acpmf_physics".to_string(), size: 2048 },
+            MemMapConfig { name: "acpmf_graphics".to_string(), size: 2048 },
+        ], "Assetto Corsa Rally"),
         "244210" => (vec![
             MemMapConfig { name: "acpmf_crewchief".to_string(), size: 15660 },
             MemMapConfig { name: "acpmf_static".to_string(), size: 2048 },

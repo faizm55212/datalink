@@ -1,0 +1,17 @@
+{
+  "notes": "AC EVO Shared Memory Configuration",
+  "maps": [
+    {
+      "name": "acevo_pmf_physics",
+      "size": 4096
+    },
+    {
+      "name": "acevo_pmf_graphics",
+      "size": 8192
+    },
+    {
+      "name": "acevo_pmf_static",
+      "size": 2048
+    }
+  ]
+}
